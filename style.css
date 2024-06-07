@@ -1,0 +1,317 @@
+
+*{
+    color: rgb(41, 3, 77);
+}
+#header{
+ 
+   font-weight: bold;
+   font-size: large;
+   text-align: center;
+   height: 30pt;
+   font-size: xx-large;
+   background-color: rgb(212, 189, 235);
+   
+}
+#navbar{
+    background-color: rgb(212, 189, 235);
+   text-align: center;
+
+   font-weight: bold;
+   font-size: larger;
+   color:rgb(240, 169, 4);
+
+}/* Search Wrapper */
+.search-wrapper {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.search-box {
+    display: inline-block;
+}
+
+.search-input {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: rgb(41, 3, 77);
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.section{
+    background-color: rgb(41, 3, 77);
+   
+}
+#img{
+    border-image: round;
+   
+}
+/* Style for the job listings */
+.job-listings {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(160, 86, 228);
+}
+
+.job-listings h4 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: rgb(41, 3, 77);
+}
+
+.job-listings ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.job-listings li {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    border-radius: 10px;
+    transition: rgb(243, 241, 246);
+}
+
+.job-listings h5 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: rgb(41, 3, 77);
+}
+
+.job-listings p {
+    font-size: 1em;
+    line-height: 1.5;
+    color:rgb(41, 3, 77);
+}
+
+/* Hover effect */
+.job-listings li:hover {
+    background-color:rgb(41, 3, 77);
+    border-radius: 10px;
+}
+
+/* General styling for the container */
+.sc-fjvvzt.jKClEA {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.sc-fjvvzt.jKClEA::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+/* Styling for the unordered list */
+.sc-bbSZdi.memdO {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for each list item */
+.sc-fBWQRz.hXgRWs {
+    margin-right: 20px;
+    flex: 0 0 auto;
+}
+
+/* Styling for the article card */
+.career-advice-sectionstyle__CareerAdviceArticleCard-sc-lhwh43-7.khazKC.ds-article-card {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgb(41, 3, 77);
+    transition: rgb(41, 3, 77);
+}
+
+.career-advice-sectionstyle__CareerAdviceArticleCard-sc-lhwh43-7.khazKC.ds-article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgb(41, 3, 77);
+}
+
+/* Styling for the link inside the card */
+.sc-jEACwC.OzWDp.ds-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Styling for the image container */
+.sc-dLMFU.fhezOE {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Styling for the images */
+.sc-eDPEul.flPszU img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Styling for the tag section */
+.sc-gFqAkR.fmdMHh {
+    padding: 10px;
+    background-color:rgb(41, 3, 77);
+}
+
+.sc-dAlyuH.gaEbXw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sc-jlZhew.fVpyMd span {
+    background-color: rgb(41, 3, 77);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Styling for the article heading */
+.sc-eldPxv.fWzxoX {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0 10px;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: rgb(41, 3, 77);
+    margin-bottom: 0.5em;
+}
+
+section {
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(41, 3, 77);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: none;
+    border: none;
+    color: rgb(41, 3, 77);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.socialIcon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.socialIcon svg {
+    width: 100%;
+    height: 100%;
+    fill: rgb(41, 3, 77);
+}
+
+.socialIcon:hover svg {
+    fill:rgb(41, 3, 77);;
+}
+
+/* Specific styles for sections */
+.sc-dNsVcS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sc-satoz {
+    flex: 1 1 calc(33.333% - 1em);
+    box-sizing: border-box;
+}
+
+.sc-dWZqqJ {
+    color:rgb(41, 3, 77);
+}
+
+.sc-eNSrOW {
+    margin-top: 0.5em;
+}
+
+.sc-fsvrbR {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sc-kqGoIF {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sc-iHGNWf {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .sc-dNsVcS {
+        flex-direction: column;
+    }
+
+    .sc-satoz {
+        flex: 1 1 100%;
+    }
+
+    .sc-iHGNWf {
+        flex-direction: column;
+    }
+}
+
